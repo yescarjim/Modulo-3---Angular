@@ -2,6 +2,8 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Product } from '../interfaces/product';
+import { environment } from '../../environments/environment';
+
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +14,7 @@ export class ProductService {
   private _httpClient = inject(HttpClient);
 
   //2. Definir la ruta de acceso al back
-  private apiUrl = "http://localhost:3000"; //url general del back
+  private apiUrl = environment.appUrl; //url general del back
 
   //3. Métodos para hacer las peticiones
 
