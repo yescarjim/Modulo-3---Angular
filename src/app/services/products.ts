@@ -31,7 +31,9 @@ return this._httpClient.get(this.apiUrl + "/products/mostrar");
   //Petición Put
 putProduct(productToUpdate : Product, id:string){
 //return this._httpClient.put(this.apiUrl + "/products/actualizar/" + id, productToUpdate);
-return this._httpClient.put("${this.apiUrl}/")
+return this._httpClient.put(`${this.apiUrl}/products/actualizar/${id}`, productToUpdate);
+
+//return this._httpClient.put(`${this.apiUrl}/`products/actualizar/${id}`, productToUpdate);
 };
 
 
