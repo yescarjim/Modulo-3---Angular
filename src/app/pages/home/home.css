@@ -1,0 +1,23 @@
+/*baner*/
+.baner {
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+}
+
+
+/*Productos*/
+.productos {
+    width: 100vw;
+    height: 60vh;
+}
+
+/* llamado a la acción*/
+.llamado-accion {
+    width: 100vw;
+    height: 70vh;
+    background-color: orange;
+}
+
+
+
