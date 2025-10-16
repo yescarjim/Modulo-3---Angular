@@ -18,7 +18,7 @@ export class UsersService {
 
   //Petición Post
   postUser(userToCreate: User){
-  return this._httpClient.post("${this.apiUrl} /users", userToCreate);
+  return this._httpClient.post("${this.apiUrl}/users", userToCreate);
   };
 
   //Metodo Peticion GET

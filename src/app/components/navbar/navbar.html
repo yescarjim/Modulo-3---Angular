@@ -14,7 +14,10 @@ Máqueteria
        <ul class="navbar-nav d-flex gap-3 align-items-center">
         <li><a class="nav-link" routerLink="/">Inicio</a></li>
         <li><a class="nav-link" routerLink="/products">Productos</a></li>
+        
+        @if (isVisible) {
         <li><a class="nav-link" routerLink="/admin">Dashboard</a></li>
+        }
         <li><a class="btn btn-registro" routerLink="/register">Registro</a></li>
         <li><a class="btn btn-sesion" routerLink="/login">Inicio de Sesión</a></li>
     </ul>
