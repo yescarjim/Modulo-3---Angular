@@ -1,4 +1,19 @@
-main{
-    border: solid red;
+main {
     width: 100vw;
+    height: auto;
+}
+
+.formulario {
+    border: solid rgb(19, 1, 48);
+    width: 40%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: var(--white);
 }
